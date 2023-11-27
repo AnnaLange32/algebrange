@@ -1,0 +1,219 @@
+body{
+    background:rgb(59, 57, 57);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+/* HEADER */
+
+
+header{
+    background-color: black;
+    background-image: url("images/Robot_teaching_wide.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:20px;
+
+    
+
+}
+header h1{
+    color: white; 
+	background-color: rgba(0,0,0,0.3); 
+	padding: 2em 0em; 
+	
+    
+
+}
+
+
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding: 2em 0em; 
+
+}
+
+header .mobile{
+    display: none;
+
+}
+
+
+/* RESPONSIVE RULES */
+
+
+
+@media screen and (max-width: 13000px) {
+
+    header {
+        height: 600px;
+        background-position: 0 -80px;
+    }
+   
+    
+}
+@media screen and (max-width: 12000px) {
+
+    header {
+        height: 400px;
+        background-position: 0 -70px;
+    }
+   
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    header {
+        height: 300px;
+        background-position: 0 -50px;
+    }
+   
+    
+}
+
+@media screen and (max-width: 750px) {
+
+    header {
+        height: 200px;
+        background-position: 0 -30px;
+    }
+    header .mobile{
+        display: inline-block;
+
+    }
+    header .desktop{
+        display: none;
+    }
+    
+}
+
+/* I COULD EVEN LOAD A SMALLER VERSION OF THE IMGE FOR MOBILE */
+
+
+/* INTRO */
+
+
+
+.intro{
+    background: rgb(172, 169, 169);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.intro figure{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 700px; 
+         
+} 
+
+.intro figcaption{
+    padding: 15px;
+    font-size: 20px;
+         
+} 
+
+.intro figcaption button{
+
+    background-color:transparent;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: white;
+    border: 2px solid White; /* Green */
+  }
+
+.intro figure img{
+    border: 0.5px solid white;
+    border-radius: 15%;
+    box-shadow: grey 0 0 10px;
+    width: 200px; 
+         
+}
+
+
+/* FEATURES */
+
+
+.features{
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.features figure{
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 400px; 
+         
+} 
+
+
+.features figure img{
+    border: 0.5px solid white;
+    border-radius: 100%;
+    box-shadow: grey 0 0 10px;
+    width: 200px; 
+    
+}
+
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li{
+    display: inline;
+    background-color: none;
+    margin-right: 20px;
+}
+
+
+/* RESPONSIVE RULES */
+
+
+
+/* Publications */ 
+
+.pub{padding: 5px; color: white; border-width: 2px; border-style: none; font-size: 1.2em; margin-top: 20px; margin-bottom: 20px;}
+.pub a{font-weight: bold; color: #09434e;}
+.pub name{font-weight: bold; color: #09434e;}
+.pub journal{font-style: italic;}
+
+/* FOOTER */
+
+
+footer{
+    background: black;
+    color: gray;
+    padding: 20px 20px ;
+    text-align: center;
+    font-size: 12px;
+    }
+
+/* This is a comment */
+
+

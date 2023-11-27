@@ -1,0 +1,114 @@
+p.pdetails {
+    margin-top: 1px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 11px;
+    color: #404040;
+    max-width: 100%;
+    background-color: #fafafa;
+    }
+    div.paperentry {
+    border: 1px #d79900 solid;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-bottom: 1em;
+    font-family: Arial, sans-serif;
+    }
+    div.paperentry_b {
+    border: 1px #aaaaaa solid;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    margin-bottom: 1em;
+    }
+    .papervolume {font-style: italic}
+    .paperyear {font-weight: bold}
+    .papertitle {padding-top: 0em;border-top: 0em;margin-top: 0em;
+    border-bottom: 2px solid #d79900;
+    background-color: #fff2ba;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: small;;
+    padding: 5px;
+    color: #000000;
+    margin-bottom: 0em;
+    max-width: 100% !important;
+    }
+    .papertitle_b {padding-top: 0em;border-top: 0em;margin-top: 0em;
+    border-bottom: 2px solid #aaaaaa;
+    background-color: #ebebeb;
+    text-align: left;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: small;;
+    padding: 5px;
+    color: #000000;
+    margin-bottom: 0em;
+    }
+    .papertitle i {font-style: normal;}
+    .paperjournal {font-style: italic}
+    .openaccess {
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #1E90FF;
+        font-size: 80%;
+    }
+    .freeaccess {
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #4B0082;
+        font-size: 80%;
+    }
+    .highlyaccessed {
+        color: #FFFFFF;
+        font-weight: bold;
+        background-color: #FF0000;
+        font-size: 80%;
+    }
+    .paperinpress {font-style: italic}
+    .tagcloud  {
+        font-size:0.7em;
+        padding: 2px;
+        margin: 2px;
+        background-color: #FFE6F9;
+        border-right: 1px solid #FFBFEF;
+        border-bottom: 1px solid #FFBFEF;
+    }
+    .tagcloud:hover {
+        color: #FF6600;
+        border-right: 1px solid #FFE680;
+        border-bottom: 1px solid #FFE680;
+        background-color:  #FFF2BF;
+    }
+    .tagcloud_b  {
+        font-size:0.7em;
+        padding: 2px;
+        margin: 2px;
+        background-color: #E0FFFF;
+        border-right: 1px solid #FFBFEF;
+        border-bottom: 1px solid #FFBFEF;
+    }
+    .tagcloud_b:hover {
+        color: #FF6600;
+        border-right: 1px solid #FFE680;
+        border-bottom: 1px solid #FFE680;
+        background-color:  #FFF2BF;
+        }
+    .description {
+        margin: 5px 30px 5px 30px;
+        padding: 5px;
+        font-size:small;
+        /*border-style: dashed;	
+        border-width: thin;
+        */
+        background: rgb(213, 219, 225);
+        text-align: left;
+    }
+    .paperauthors a:link {color: #A83D23; text-decoration:none;}
+    .paperauthors a:visited {color: #A83D23; text-decoration:none;}
+    .paperauthors a:hover {color: #A83D23; text-decoration:underline;}
+    
